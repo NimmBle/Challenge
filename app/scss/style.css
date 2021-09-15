@@ -83,7 +83,7 @@ button, .button {
   display: block;
   width: 26px;
   height: 0.125rem;
-  background-color: #2d314d;
+  background-color: #313449;
 }
 
 .header__menu > span:not(:last-child) {
@@ -118,7 +118,7 @@ button, .button {
 }
 
 .header__links a:hover {
-  color: #2d314d;
+  color: #313449;
 }
 
 .header__links a:hover::before {
