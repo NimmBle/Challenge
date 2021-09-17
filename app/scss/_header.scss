@@ -3,7 +3,7 @@
     &.open {
 
         
-        .header__menu {
+        .header__toggle {
             > span:first-child {
                 transform: rotate(45deg);
             }
@@ -38,7 +38,7 @@
         }
     }
 
-    &__menu { // mobile menu
+    &__toggle { // mobile menu
 
         > span {
             display: block;
@@ -57,7 +57,22 @@
        
 
     }
-
+    &__menu {
+        position: absolute;
+        width: calc(100% - 3rem);
+        left: 50%;
+        transform: translateX(-50%);
+        background: $white;
+        margin-top: 1.5rem;
+        padding: 1.625rem;
+        border-radius: 3px;
+        a {
+            display: block;
+            padding: 0.625rem;
+            color: $darkBlue;
+            text-align: center;
+        }
+    }
 
     &__links {
         a {
